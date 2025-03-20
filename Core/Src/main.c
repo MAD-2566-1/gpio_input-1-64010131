@@ -213,7 +213,7 @@ void SystemClock_Config(void)
   if (HAL_PWREx_EnableOverDrive() != HAL_OK)
   {
     Error_Handler();
-  }
+  } 
 
   /** Initializes the CPU, AHB and APB buses clocks
   */
