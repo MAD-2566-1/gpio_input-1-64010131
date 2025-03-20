@@ -166,9 +166,10 @@ int main(void)
 	 		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_11, GPIO_PIN_RESET);
 	 		  break;
 	 	  }
-
+	 HAL_Delay(100);
     /* USER CODE BEGIN 3 */
   }
+	
   /* USER CODE END 3 */
 }
 
