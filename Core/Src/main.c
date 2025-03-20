@@ -126,17 +126,12 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
- if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_RESET ){
-	 		  HAL_Delay(10);
-	 		  if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_RESET){
+ if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_SET ){	
 	 		  num += 1;
-
 	 		  if(num > 8 ){
 	 			  num = 1;
 	 		  }
-	 		  }
-	 	  }
-
+	  }
 	 	  switch (num){
 	 	  case 1:
 	 		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
