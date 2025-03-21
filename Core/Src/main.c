@@ -20,7 +20,6 @@
 #include "main.h"
 #include "string.h"
 
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
