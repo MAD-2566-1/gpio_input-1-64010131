@@ -126,6 +126,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+//asdasdasd
  if(HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_15) == GPIO_PIN_SET ){	
    num += 1;
 	  }
