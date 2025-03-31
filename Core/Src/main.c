@@ -132,7 +132,7 @@ int main(void)
 	  }
 	   if(num > 8 ){
 	 	num = 1;
-	      }
+	      } 
 	 	  switch (num){
 	 	  case 1:
 	 		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
